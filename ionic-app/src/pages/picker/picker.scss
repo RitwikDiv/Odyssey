@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+    height: 100%;
+}
+
+.slider {
+    width: 90vw;
+}
+
+.box {
+    text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+.call-to-action {
+    padding-top: 4em;
+    margin-bottom: 4.5em;
+}
+
+.go-button {
+    margin-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
